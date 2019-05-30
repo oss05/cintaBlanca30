@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* border: solid 1px red; */
+    width: 100%;
+    /* padding-left: 400px; */
+}
+
+.contenedor-nav{
+    /* border: solid 1px #003cff;  */
+    width: 20%;
+    margin-left: 800px;
+}

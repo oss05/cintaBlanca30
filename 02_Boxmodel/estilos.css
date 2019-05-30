@@ -1,0 +1,42 @@
+.contenedor{
+    border: solid 1px #00ffd5;
+    width: 500px;
+    height: 550px;
+}
+
+.contenedorUnicoyDiferente{
+    border: solid 1px #cc00ff;
+}
+
+#contenedorConID{
+    background-color: crimson;
+}
+
+h1{
+    border: solid 1px #cc00ff;
+    display: inline-block;
+    height: auto;
+    font-size: auto;
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    border: solid 1px rgb(0, 255, 42);
+    /* display: inline;
+    height: 400px; */
+    color: brown;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* a{
+    border: solid 1px rgb(255, 72, 0);
+    display: inline;  
+} */
+
+.imgUsuario{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
