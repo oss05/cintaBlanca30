@@ -1,4 +1,4 @@
-body{
+/* body{
     border: solid 1px #0044ff;
     width: 100%;
     height: 100vh;
@@ -23,4 +23,80 @@ body{
     border: solid 1px #8400ff;
     width: 80px;
     height: 80px;
+} */
+body{
+    border: solid 1px green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-grande{
+    border: solid 1px red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-mediano{
+    border: solid 1px rgb(0, 162, 255);
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-mediano-diferente{
+    border: solid 1px rgb(255, 0, 0);
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-chico{
+    border: solid 1px rgb(0, 255, 13);
+    width: 30%;
+    height: 30%;
+}
+
+.box-grande-2{
+    border: solid 1px blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-mediano-2{
+    border: solid 1px rgb(255, 0, 157);
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-mediano-2-diferente{
+    border: solid 1px rgb(0, 225, 255);
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-chico-2{
+    border: solid 1px rgb(0, 89, 255);
+    width: 30%;
+    height: 30%;
 }
