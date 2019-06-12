@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.Izq{
+    /* border: solid 1px red; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+}
+
+.cuadrado{
+    /* border: solid 1px rgb(212, 0, 255); */
+    width: 90%;
+    height: 40%;
+    background: white;
+}
+
+.cuadrado-2{
+    /* border: solid 1px rgb(212, 0, 255); */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.cuadrado-rojo{
+    /* border: solid 1px rgb(77, 202, 39); */
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+.Der{
+    /* border: solid 1px blue; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: blue;
+}
+
+.cuadrado-3{
+    /* border: solid 1px rgb(212, 0, 255); */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.cuadrado-4{
+    /* border: solid 1px rgb(212, 0, 255); */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: white;
+}
