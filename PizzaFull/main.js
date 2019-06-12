@@ -12,9 +12,15 @@ let mostrarP = document.getElementById('mostrarpizza')
 
 let boton = document.getElementById('button')
 
+//tarjeta
+
+let tarjeta = document.getElementById('tarjeta')
+
 
 
 const mostrarAll = ()=>{
+
+    tarjeta.classList.remove('d-none')
 
     let textName = inpName.value
     let textBook = inpBook.value
