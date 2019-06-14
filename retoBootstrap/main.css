@@ -1,0 +1,35 @@
+body{
+    background-color: #000;
+}
+
+.logo{
+    width: 40px;
+}
+
+.container {
+    /* border: solid 1px red; */
+}
+
+.row{
+    /* border: solid 1px #0400ff;  */
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card > img {
+    border: solid 1px white;
+}
+
+.btn{
+    border-radius: 0 !important;
+    background-color: #000;
+    border: solid 1px white;
+}
+
+.btn:hover{
+    border: solid 1px white;
+    background-color: white;
+    color: #000;
+}
