@@ -78,12 +78,18 @@
 
 //Hacer un arreglo de 3 G.M, sumar 3 con push, y borrae el elemento 0 y 1
 
-let gm = ["perreke", "banda","duranguense"]
+// let gm = ["perreke", "banda","duranguense"]
 
-gm.push("merol")
-gm.push("indie")
-gm.push("house")
+// gm.push("merol")
+// gm.push("indie")
+// gm.push("house")
 
-gm.splice(0,2)
+// gm.splice(0,2)
 
-console.log(gm)
+// console.log(gm)
+
+
+let array = ["a","b","c","d","e","f","g","h","i","j"]
+
+let all = array.indexOf("c")
+console.log(all)
