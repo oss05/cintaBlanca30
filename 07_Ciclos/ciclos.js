@@ -72,19 +72,20 @@
 //Arreglo de 10 
 // Pushear 5 elementos y iterar ese arreglo
 
-// let array = []
+let array = []
 
-// for(let i = 1; i <= 150; i++){
+for(let i = 0; i <= 15; i++){
 
-//     array.push(i-1)
+    array.push(i)
 
-// }
+}
 
-// for(let i = 0; i < array.length; i++){
-//      console.log(array[i])
+console.log(array)
+
+for(let i = 0; i < array.length; i++){
+     console.log(array[i])
 
 
-// }
+}
 
 
-// console.log(array)
